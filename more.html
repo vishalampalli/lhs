@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LITLLE HEARTS SCHOOL</title>
+    <link rel="icon" href="pics/logo_2-removebg-preview.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
+
+</head>
+<body>
+    <header>
+
+        <!-- navbar -->
+          <section class="header">
+              <nav>
+                  <a href="index.html"><img src="pics/logo_2-removebg-preview.png" ></a>
+                  <link rel="stylesheet" href="more.css">
+                  <div class="nav-links" id="navLinks">
+                      <i class="fa fa-times" onclick="hideMenu()"></i>
+                      <ul>
+                          <li><a href="sch.html">Home</a></li>
+                          <li><a href="about.html">About</a></li>
+                          <li><a href="contact.html">Contact</a></li>
+                      </ul>
+                  </div>
+                  <i class="fa fa-bars" onclick="showMenu()"></i>
+              </nav>
+              <!-- text box -->
+              <div class="text-box">
+                <h3>Thank You for Visiting Us</h3>                
+              </div>
+            </section>
+          </header>
+          <!-- location -->
+          <section class="streetview">
+            <h3>360-Degree view</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!4v1700562159610!6m8!1m7!1sCAoSLEFGMVFpcE9vMHI0akswS3hFaElFRjJIdTdfMzMwUFRsQ1BWSUZ1aWdVSkF3!2m2!1d15.42371801214589!2d76.5371092463788!3f240!4f10!5f0.7820865974627469" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </section>
+          <!-- facilities -->
+          <section class="faci">
+            <h1>Our-Facilities</h1>
+          </section>
+          
+              <!-- footer -->
+        <section class="footer">
+            <h5>About Us</h5>
+            <p>We are providing Education Since @ 2003</p>
+            <div class="icons">
+              <i class="fa fa-facebook" ></i>
+              <i class="fa fa-instagram" ></i>
+             </div>
+          </section>
+          <!-- scrit -->
+          <script>
+            var navLinks= document.getElementById("navLinks");
+            
+            function showMenu(){
+                navLinks.style.left="0";
+            }
+            function hideMenu(){
+                navLinks.style.left="-200px";
+            } 
+         </script>
+    
+</body>
+</html>
